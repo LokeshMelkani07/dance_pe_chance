@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Lobster&family=Montserrat&family=Oleo+Script+Swash+Caps&family=Rubik+Glitch&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+}
+
+#navbar{
+   background-color: #081c43;
+   padding: 6px 14px;
+   font-family: 'Montserrat', sans-serif;
+   opacity: 0.9;
+}
+
+#navbar:hover{
+   opacity: 1.0;
+}
+
+
+#navbar ul{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   margin-top: 6px;
+}
+
+#navbar div#logo{
+    margin: 0 3px;
+    font-size: 1.2rem;
+    color: black;
+    font-family: 'Rubik Glitch', cursive;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 3px 43px;
+    color: white;
+}
+
+#navbar li a:hover{
+    text-decoration: underline;
+    color: goldenrod;
+}
+
+#introSection
+{
+    background-image: url("/static/dance1.webp");
+    height: 385px;
+    /* opacity: 0.8; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sponserSection{
+    height: 360px;
+    background-color: #081c43;
+    color: #d2a72f;
+}
+
+#sponserSection h3{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 2.9rem;
+    /* text-decoration: underline; */
+    padding-top: 13px;
+    box-shadow: 3px 0px 124px #fff;
+}
+
+#sponserSection div#images{
+    display: flex;
+    flex-direction: row;
+}
+
+#sponserSection div#images img{
+    margin: 44px 159px;
+    border-radius: 14%;
+    box-shadow: -3px 0px 24px goldenrod;
+}
+
+#footer{
+   height: 100px;
+   background-color: #11316f;
+   text-align: center;
+   padding-bottom: 10px;
+   color: black;
+}
+
+#footer h2{
+    font-size: 3rem;
+    color: whitesmoke;
+    padding-bottom: 2px;
+}

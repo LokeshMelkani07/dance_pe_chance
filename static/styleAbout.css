@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Lobster&family=Montserrat&family=Oleo+Script+Swash+Caps&family=Rubik+Glitch&display=swap');
+h1{
+    color: #081c43;
+    font-family: 'Rubik Glitch', cursive;
+}
+
+div#img img{
+    width: 300px;
+    height: 200px;
+    margin: 2px 478px;
+    border: 2px solid black;
+    border-radius: 9px;
+}
+
+div#aboutUs{
+    margin: 20px;
+    box-sizing: content-box;
+}
+.glow {
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #081c43, 0 0 40px #081c43, 0 0 50px #081c43, 0 0 60px #081c43, 0 0 70px #081c43;
+    }
+    to {
+      text-shadow: 0 0 20px #081c43, 0 0 30px #081c43, 0 0 40px #081c43, 0 0 50px #081c43, 0 0 60px #081c43, 0 0 70px #081c43, 0 0 80px #081c43;
+    }
+  }

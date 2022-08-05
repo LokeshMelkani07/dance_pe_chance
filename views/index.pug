@@ -1,0 +1,42 @@
+doctype html
+html
+    head
+       style
+         include ../static/style.css
+       title Dance pe Chance
+
+    body
+      nav#navbar.top
+        ul
+          div#logo
+             img(src='../static/logo.png' alt='Sponser' style='width:50px; height:50px;')
+             | Dance pe Chance
+          li
+            - var url = '/';
+            a(href='/' + url) Home
+          li
+            - var url = '/';
+            a(href='/' + url) About
+          li
+            - var url = '/';
+            a(href='/' + url) Services
+          li
+            - var url = '/';
+            a(href='/' + url) Contact
+
+      section#introSection
+
+      section#sponserSection
+         h3 Our Sponsers
+         div#images
+           img(src='../static/sponser1.jpg' alt='Sponser' style='width:150px; height:150px;')
+           img(src='../static/sponser2.jpg' alt='Sponser' style='width:150px; height:150px;')
+           img(src='../static/sponser3.webp' alt='Sponser' style='width:168px; height:158px;')
+      footer#footer
+         div#copyright
+            h2 Come Let's Dance India Dance
+            h3 Copyright © 2022 DancePeChance | All right reserved
+
+
+      script
+        include ../static/index.js

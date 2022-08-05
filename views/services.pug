@@ -1,0 +1,60 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+//-   script(src='/static/services.js')
+
+block style
+  style
+    include ../static/style.css
+    include ../static/styleContact.css
+    include ../static/styleAbout.css
+    include ../static/styleServices.css
+
+
+block content
+    nav#navbar.top
+        ul
+          div#logo
+             img(src='../static/logo.png' alt='Sponser' style='width:50px; height:50px;')
+             | Dance pe Chance
+          li
+            - var url = '/';
+            a(href='' + url) Home
+          li
+            - var url = '/';
+            a(href='/about' + url) About
+          li
+            - var url = '/';
+            a(href='/services' + url) Services
+          li
+            - var url = '/';
+            a(href='/contact' + url) Contact
+    div#container
+        h1.glow Our Services
+        div#img
+          img(src='../static/about1.jpg' alt='dance')
+        div.onerow
+          img(src='../static/service2.jpg' alt='dance')
+          img(src='../static/service4.webp' alt='dance')
+          img(src='../static/service1.jpg' alt='dance')
+        div#aboutUs
+          h4 <mark>AVAJARRED</mark> - The Delhi Dance Academy Annual Show<br>
+             <br>
+             <mark>Bedazzled</mark> - A Delhi Dance Academy product that will make you go WOW!<br>
+             <br>
+             <mark>Corporate Dance</mark> -  Team building and employee happiness through dance and fitness by Delhi Dance Academy  Delhi's most renowned dance company for corporate workshops.<br>
+             <br>
+             <mark>Dance Troupe</mark> - Need dancers for an event? Check us out.<br>
+             <br>
+             <mark>Dance Classes in Schools</mark> - We offer multiple dance related services to Schools in Delhi, Noida and Gurgaon. From regular dance classes, annual day dance themes to creating award wining dance acts by auditioning and creating dance groups.<br>
+             <br>
+             <mark>Flash Mobs</mark> - Organise a flash mob for a cause or to create brand roar. Delhi Dance Academy is known for its excellent flash mobs.<br>
+             <br>
+             <mark>Judging and Performing at College Fests and Competitions</mark> - We create award winning dance choreography in all genres of dance with our exceptional team of dance trainers. Delhi Dance Academy is also known for judging state and national level dance competitions in all types of dance competitions. We have performed at dozens of college and university festivals and enthralled lakhs of students.<br>
+             <br>
+             <mark>Workshops and Masterclasses by Professional Dancers</mark> - We regularly organise workshops with top professional National and International dance instructors to give our students the opportunity to learn new styles and techniques. These workshops are usually very well priced with the intent of getting our students the exposure. Masterclasses are of longer duration with the intent of performing a dance sequence in public and recording a high definition video. Read more…<br>
+             <br>
+             <mark>Namaste India Workshop for Foreigners</mark> - Rated Excellent on TripAdvisor, these workshops are designed to make everlasting memories for visiting guests.<br>
+             <br>
+             <mark>Dance Teaching</mark> for Weddings,  Sangeet Ceremonies and Ladies' Night for the Whole Family.

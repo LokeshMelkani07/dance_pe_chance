@@ -1,0 +1,40 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+  style
+    include ../static/style.css
+    include ../static/styleContact.css
+    include ../static/styleAbout.css
+
+block content
+    nav#navbar.top
+        ul
+          div#logo
+             img(src='../static/logo.png' alt='Sponser' style='width:50px; height:50px;')
+             | Dance pe Chance
+          li
+            - var url = '/';
+            a(href='' + url) Home
+          li
+            - var url = '/';
+            a(href='/about' + url) About
+          li
+            - var url = '/';
+            a(href='/services' + url) Services
+          li
+            - var url = '/';
+            a(href='/contact' + url) Contact
+    div#container
+        h1.glow About Dance pe Chance
+        div#img
+          img(src='../static/about1.jpg' alt='dance')
+        div#aboutUs
+          h4 <mark>Dance pe Chance</mark> was founded on the 19th of June 2008 by Shri Bhupinder Singh   with a vision of providing quality dance education with high class professional infrastructure at affordable prices in Delhi. Today, Delhi Dance Academy is one of the better known names for high quality dance education, has been featured on various national and international TV channels and newspapers as the best in its field. DDA has been awarded <mark>“The Best Dance Academy in Delhi”</mark> and the <mark>“Certificate of Excellence”</mark> various times. More than academic accolades,  DDA prides itself for being featured on international media such as BBC 2, The Guardian and World Travel Guide.
+           It stands as one of the country’s most visible dance institutes on the Internet with 2,00,000 visits in all of 2020.
+           The academy provides opportunities like free masterclasses, paid international and national artist workshops and the annual stage show AVAJARRED to students.
+           Delhi Dance Academy is also the preferred destination for foreigners visiting India. Delhi Dance Academy’s 2 hour “in-costume” dance session on Bollywood, Bhangra and Garbha/Dandiya is called <mark>“Namaste India Dance Workshop”</mark> and has been made popular by various travel websites. DDA works with various inbound tour operators to make these workshops available to travelers visiting Delhi. The Namaste India Workshop has been rated “Excellent” on TripAdvisor.com and now stands as the <mark>#1 Fun Activity</mark> in Delhi.
+           Other services offered include conducting fitness and dance classes at various organisations in and around Delhi. Our <mark>corporate classes</mark> have received excellent reviews from our corporate clients. Our dance troupe has performed at various events around the country and is reputed for being professional and coordinated. With many hundreds of families serviced for wedding dancing, our <mark>wedding choreography</mark> division is a one stop shop starting from song selection, making high quality medleys to shooting periodic videos to help families remember the steps (shared privately on Youtube). From couple choreographic sequences to full family performances, we have received fantastic reviews for our work at marriage and sangeet functions.
+           The emphasis at Delhi Dance Academy has always been on providing education that matters, on managing the centers professionally – starting and ending classes on time, providing a comfortable environment to students, choosing well trained, professional instructors and so on. DDA has done very well in standardizing the process, using technology for managing the institutes.

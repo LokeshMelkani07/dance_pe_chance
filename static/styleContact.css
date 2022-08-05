@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Lobster&family=Montserrat&family=Oleo+Script+Swash+Caps&family=Rubik+Glitch&display=swap');
+h1{
+   text-align: center;
+   margin: 12px 0;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 700;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.myInput{
+    font-size: 16px;
+    width: 40%;
+    padding: 9px;
+    margin: 8px;
+    border: 2px solid #081c43;
+    border-radius: 12px;
+}
+
+.btn{
+    padding: 7px 18px;
+    font-size: 20px;
+    border: 2px solid #081c43;
+    border-radius: 12px;
+    background-color: white;
+    color: #081c43;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: goldenrod;
+}

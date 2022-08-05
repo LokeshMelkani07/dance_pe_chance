@@ -1,0 +1,11 @@
+.onerow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.onerow img{
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 9px;
+}
